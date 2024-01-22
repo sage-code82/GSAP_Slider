@@ -17,7 +17,7 @@
   <body>
     <div class="app">
       <div class="cardList">
-        <button class="cardList_btn btn btn--left">
+        <button class="cardList_btn.btn--left">
           <div class="icon">
             <svg>
               <use xlink:href="#arrow-left"></use>
@@ -25,28 +25,48 @@
           </div>
         </button>
         <div class="cards_wrapper">
-          <div class="card current--card">
+          <div class="card.current--card">
             <div class="card_image">
               <img src="images/bobafett.jpg" />
             </div>
           </div>
-          <div class="card next__card">
+          <div class="card.next__card">
             <div class="card_image">
               <img src="images/cad-bane.jpg" />
             </div>
           </div>
-          <div class="card previous--card">
+          <div class="card.previous--card">
             <div class="card_image">
               <img src="images/dengar.jpg" />
             </div>
           </div>
-          <button class="cardList_btn btn btn--right">
+          <button class="cardList_btn.btn--right">
             <div class="icon">
               <svg>
                 <use xlink:href="#arrow-right"></use>
               </svg>
             </div>
           </button>
+          <div class="infoList">
+            <div class="info__wrapper">
+              <div class="info current--info">
+                <h1 class="text name">Boba Fett</h1>
+                <h4 class="text location">Slave 1</h4>
+                <p class="text description">Relentless Survivor</p>
+              </div>
+
+              <div class="info next--info">
+                <h1 class="text name">Cad Bane</h1>
+                <h4 class="text location">Justifier</h4>
+                <p class="text description">Gun Slinger</p>
+              </div>
+              <div class="info previous--info">
+                <h1 class="text name">Dengar</h1>
+                <h4 class="text location">Punishing One</h4>
+                <p class="text description">Battle-Scarred Veteran</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
